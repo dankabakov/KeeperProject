@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
-import uuid, { v4 } from "uuid";
+import { v4 } from "uuid";
 
 function App() {
   const [items, setItems] = useState([]);
